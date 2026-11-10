@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+.vercel/
+coverage/
+
+# Environment files (keep the example template)
+.env*
+!.env.example
+
+# Logs, caches, and local metadata
+*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.tsbuildinfo
+
+# Local datasets and runtime logs
+**/data/
+!src/data/
+!src/data/**
+**/logs/
